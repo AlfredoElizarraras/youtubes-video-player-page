@@ -1,0 +1,15 @@
+/* Navbar */
+
+.logo {
+    width: 129px;
+}
+
+.search {
+    max-width: 640px;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    display: inline;
+}
