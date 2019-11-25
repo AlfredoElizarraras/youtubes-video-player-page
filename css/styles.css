@@ -61,3 +61,12 @@
 .video-title {
     font-size: 1rem;
 }
+
+.sidebar-video{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar-video-title{
+font-weight: bold;
+}
