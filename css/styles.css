@@ -151,7 +151,9 @@ html, body {
 }
 
 .main-video-title {
-    font-size: 1rem;
+    font-size: 18px;
+    color: #050404;
+    font-weight: 400;
 }
 
 /* Main video info */
@@ -240,7 +242,7 @@ html, body {
 
 /* Video recommendations sidebar */
 
-.upnext {
+.up-next {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 12px;
@@ -264,7 +266,7 @@ html, body {
 .sidebar-video-title {
     font-size: 14px;
     font-weight: bold;
-    color: #000000;
+    color: #0d0d0d;
 }
 
 .sidebar-video-info div {
