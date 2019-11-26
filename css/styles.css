@@ -123,6 +123,7 @@ html, body {
 .main-video iframe {
     width: 640px;
     height: calc(640px * 0.5625); /*16:9 aspect ratio*/
+    border: 0;
 }
 
 .video-recommendations {
