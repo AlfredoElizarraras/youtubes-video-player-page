@@ -125,25 +125,7 @@ html, body {
 .video-recommendations {
     flex-grow: 1;
     width: 300px;
-}
-
-@media screen and (max-width: 1012px) {
-    .main-content {
-        flex-direction: column;
-    }
-
-    .main-video {
-        margin: 0;
-    }
-
-    .main-video iframe {
-        width: 100%;
-        height: calc((100vw - 48px) * 0.5625);
-    }
-
-    .video-recommendations {
-        width: auto;
-    }
+    background-color: lightcyan;
 }
 
 .video-title {
@@ -247,21 +229,37 @@ html, body {
 .sidebar-video-thumbnail {
     width: 168px;
     height: 94px;
+    margin-right: 8px;
 }
 
 .sidebar-video-title {
+    flex: 1;
     font-weight: bold;
     font-size: 14px;
     color: #0d0d0d;;
-}
-
-.sidebar-video-info {
-    min-width: 250px;
-    margin-left: 10px;
 }
 
 .separator {
     width: 100%;
     margin: 15px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1012px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-video {
+        margin: 0;
+    }
+
+    .main-video iframe {
+        width: 100%;
+        height: calc((100vw - 48px) * 0.5625);
+    }
+
+    .video-recommendations {
+        width: auto;
+    }
 }
