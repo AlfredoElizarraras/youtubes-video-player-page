@@ -122,6 +122,30 @@ html, body {
     border: 0;
 }
 
+.video-recommendations {
+    flex-grow: 1;
+    width: 300px;
+}
+
+@media screen and (max-width: 1012px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-video {
+        margin: 0;
+    }
+
+    .main-video iframe {
+        width: 100%;
+        height: calc((100vw - 48px) * 0.5625);
+    }
+
+    .video-recommendations {
+        width: auto;
+    }
+}
+
 .video-title {
     font-size: 18px;
     font-weight: 400;
