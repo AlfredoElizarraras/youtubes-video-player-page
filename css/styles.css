@@ -1,5 +1,8 @@
-/* Navbar */
+html, body {
+    font-family: Roboto, Arial, sans-serif;
+}
 
+/* Navbar */
 .navbar {
     display: flex;
     flex-flow: row nowrap;
@@ -94,7 +97,7 @@
     width: 24px;
 }
 
-/* Main content */
+/* Main video */
 
 .main-outer {
     display: flex;
@@ -113,9 +116,51 @@
     margin-right: 24px;
 }
 
-.video-title {
-    font-size: 1rem;
+.main-video iframe {
+    width: 640px;
+    height: calc(640px * 0.5625);
+    border: 0;
 }
+
+.video-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0d0d0d;
+}
+
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: #606060;
+}
+
+.views {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.dot {
+    margin: 0 4px;
+}
+
+.menu a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    fill: #606060;
+}
+
+
+/* Sidebar video recommendations */
 
 .sidebar-video {
     display: flex;
